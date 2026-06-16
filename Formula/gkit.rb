@@ -1,25 +1,25 @@
 class Gkit < Formula
   desc "gkit — a transparent git/ssh toolkit: ssh keys, hooked clone, log-off check, stmb"
   homepage "https://github.com/teeckoo/gkit"
-  version "0.9.0"
+  version "0.10.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/teeckoo/gkit/releases/download/v0.9.0/gkit-aarch64-apple-darwin.tar.xz"
-      sha256 "b0735480b17015d5606719f8e9766a39615806ef105d4bac6c81be8e44a28e1c"
+      url "https://github.com/teeckoo/gkit/releases/download/v0.10.0/gkit-aarch64-apple-darwin.tar.xz"
+      sha256 "296ba4fb4edfc9333b665f283648d9a79723eb8a4b32f102eb06dbe18f3d2b2b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/teeckoo/gkit/releases/download/v0.9.0/gkit-x86_64-apple-darwin.tar.xz"
-      sha256 "5770fd57db311c63d42353840c8fe8f511d41953bc50eaf05c3b38178c888377"
+      url "https://github.com/teeckoo/gkit/releases/download/v0.10.0/gkit-x86_64-apple-darwin.tar.xz"
+      sha256 "3f507ec3297b1c447befa6ff9c9ff131cdfdbce4b8e8291dbc0aa9680770971d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/teeckoo/gkit/releases/download/v0.9.0/gkit-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "14266bc84c12abc3f3670e8c519efbe9cf08f56aea08c41dcd00d2f423a4240e"
+      url "https://github.com/teeckoo/gkit/releases/download/v0.10.0/gkit-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "d5df27112612e01cf374f89f96e1bf8c82140fd1550d8543344695ad5937bc49"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/teeckoo/gkit/releases/download/v0.9.0/gkit-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "513429a5fc660a3bcbe6a7161591b585c89ea7f050f10d0afcaa193b3fde0bcc"
+      url "https://github.com/teeckoo/gkit/releases/download/v0.10.0/gkit-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "1c257afa34c6274c66b28a1127db51add4b2b0b1d6384927a014c64948b4992b"
     end
   end
   license "MIT"
